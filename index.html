@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Учебный макет</title>
+    <script defer src="js/login.js"></script>
+</head>
+<body class="page">
+    <header class="header">   
+        <div class="wrapper"> 
+            <a href="index.html" class="logo">
+                <svg viewBox="0 0 47 47" width="47px" height="47px" class="logo">
+                    <path xmlns="http://www.w3.org/2000/svg" d="M19.013,25.23c0,0,7.87-2.841,7.94-7.792c-0.03-0.93-0.33-1.93-1-3c0,0-2.38-4.149-7.74-2.04   c-2.18,0.86-12.1,5.021-17.67,17.511C1.393,29.939,8.591,30.07,19.013,25.23z M29.771,45.75c0,0,6.65-7,7.34-19.15   c0,0,0.04-0.369,0.04-0.938c-0.01-2.23-0.61-7.04-5.39-7.53c-1.41-0.14-6.06-0.64-6.11,8.221c0.01,0.899,0.05,1.881,0.15,2.971   C26.993,42.061,29.771,45.75,29.771,45.75z M46.501,28.67c0,0,0.03-0.23,0.04-0.66c-0.02-1.52-0.43-4.979-3.26-9.77   c0,0-3.39-5.49-6.48-3.94c-0.55,0.28-1.52,1.24-1.56,2.88c0.02,1.311,0.64,3.021,2.48,5.14C42.042,27.29,46.501,28.67,46.501,28.67   z M33.711,6.85c-0.28,0.2-0.45,0.55-0.48,1c0.03,0.771,0.48,1.811,1.58,2.98c2.65,2.81,4.76,3.33,6.04,2.46   c0.55-0.37,0.78-0.8,0.81-1.25c-0.04-0.521-0.32-1.061-0.68-1.54C39.353,8.319,35.321,5.649,33.711,6.85z M30.111,2.52   c-1.87-1.189-4.83-2.149-5.6-1.62c-0.25,0.17-0.45,0.601-0.47,1.19c0.04,1.28,0.88,3.18,3.59,4.81c1.22,0.74,4.3,1.351,5.45,0.221   c0.19-0.181,0.31-0.44,0.33-0.75C33.353,5.41,32.453,4.01,30.111,2.52z M15.783,2.939c5.04,0,10.46,1.811,10.59,4.67   c-0.02,0.4-0.14,0.82-0.37,1.261c0,0-2.51,4.02-8.54,1.55c-2.78-1.13-8.38-3.82-10.75-5.521C7.421,4.51,10.643,2.939,15.783,2.939z   "/>
+                </svg>
+            </a>
+            <ul class="menu">
+                <li><a class="menu_link active_link" href="index.html">Главная</a></li>
+                <li><a class="menu_link" href="pages/students.html">Студенты</a></li>
+                <li><a class="menu_link" href="pages/about.html">О курсе</a></li>
+                <li><a class="menu_link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+            <a class="login" href="login.html">Войти</a>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper"> 
+            <div class="login_popup">
+                <div class="close">&#10005;</div>
+                <h2 class="h2">Войти на сайт</h2>
+                <form class="login_form" action="" method="GET">
+                    <input class="login_input" name="login" type="text" placeholder="Логин" required="">
+                    <input class="password_input" name="password" placeholder="Пароль" required="">
+                    <button class="login" type="submit">Войти</button>
+                </form>
+            </div>
+            <h1 class="h1">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
+            <img src="img/class_2.jpg" alt="Фото класса">
+            <h2 class="h2">Для кого этот курс</h2>
+            <div class="column">
+                <div>
+                    <p class="text1">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.<br> 
+                        Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
+                </div>
+                    <div class="uch">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="150px" height="50px" viewBox="0 0 150px 100%">
+                        <text x="0" y="45" width: 129px; class="text2">
+                            &#8220;Учимся
+                        </text>
+                    </svg>
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="140px" height="50px" viewBox="0 0 140px 100%">
+                        <text x="0" y="45" width: 129px; class="text2">
+                            вместе!&#8222;
+                        </text>
+                    </svg>
+                    </div>
+                    <div>
+                            <h2 class="h2">Чему вы научитесь</h2>
+                            <p class="text1">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em> сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="index.html"> 
+                <svg xmlns="http://www.w3.org/2000/svg" width="211px" height="27px" viewBox="0 0 211px 33px" >
+                    <text x="0" y="18.5" class="footer-text" >
+                        2022 &copy; учебный центр
+                    </text> 
+                    <path d="M70 20 H 240 Z" stroke="black"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
