@@ -137,6 +137,8 @@ body {
     flex-direction: column;
 }
 .login_input {
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
     max-width: 444px;
     min-height: 55px;
     margin: 36px 0 28px 0;
@@ -148,6 +150,8 @@ body {
     padding: 10px 0 14px 17px;
 }
 .password_input {
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
     max-width: 444px;
     min-height: 55px;
     margin: 28px 0 28px 0;
