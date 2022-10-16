@@ -6,11 +6,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Учебный макет</title>
-    <script defer src="js/login.js"></script>
+    <script defer src="../js/login.js"></script>
 </head>
 <body class="page">
     <header class="header">   
@@ -22,10 +22,10 @@
                 </svg>
             </a>
             <ul class="menu">
-                <li><a class="menu_link active_link" href="index.html">Главная</a></li>
-                <li><a class="menu_link" href="pages/students.html">Студенты</a></li>
-                <li><a class="menu_link" href="pages/about.html">О курсе</a></li>
-                <li><a class="menu_link" href="pages/contacts.html">Контакты</a></li>
+                <li><a class="menu_link" href="../index.html">Главная</a></li>
+                <li><a class="menu_link" href="students.html">Студенты</a></li>
+                <li><a class="menu_link active_link" href="about.html">О курсе</a></li>
+                <li><a class="menu_link" href="contacts.html">Контакты</a></li>
             </ul>
             <button class="login" href="login.html" title="Войти">Войти</button>
         </nav>
@@ -43,31 +43,9 @@
                     <button class="login" type="submit">Войти</button>
                 </form>
             </div>
-            <h1 class="h1">Добро пожаловать на курс “Создание веб-сайтов (HTML, CSS)”!</h1>
-            <img src="img/class_2.jpg" alt="Фото класса" title="Фото класса">
-            <h2 class="h2">Для кого этот курс</h2>
-            <section class="column">
-                <section>
-                    <p class="text1">Этот курс рассчитан на новичков, которые только начинают знакомство с веб-разработкой. В начале курса вы узнаете о том, как устроен Интернет и веб-сайты.<br> 
-                        Для обучения необходимо только владеть компьютерной грамотностью (пользоваться браузером, создавать папки и файлы, устанавливать программы).</p>
-                </section>
-                <blockquote class="uch">
-                        <svg  xmlns="http://www.w3.org/2000/svg" width="150px" height="50px" viewBox="0 0 150px 100%">
-                            <text x="0" y="45" width: 129px; class="text2">
-                                &#8220;Учимся
-                            </text>
-                        </svg>
-                        <svg  xmlns="http://www.w3.org/2000/svg" width="140px" height="50px" viewBox="0 0 140px 100%">
-                            <text x="0" y="45" width: 129px; class="text2">
-                                вместе!&#8222;
-                            </text>
-                        </svg>
-                </blockquote>
-                <section>
-                        <h2 class="h2">Чему вы научитесь</h2>
-                        <p class="text1">На этом курсе вы узнаете, как устроены веб-сайты и как создавать их с нуля. Изучите основы языков <strong>HTML</strong>, <strong>CSS</strong> и немного <strong>JavaScript</strong>. Мы вместе сверстаем сайт нашей группы по этому макету. А затем вы <em>сами</em> сверстаете свои личные странички в качестве домашнего задания и мы выложим все это на сервер.</p>
-                </section>
-            </section>
+            <h1 class="h1_about">О курсе 📱</h1>
+            <h2 class="h2 about">Посмотрите видео о нас</h2>
+            <iframe class="about_video" width="820" height="461" src="https://www.youtube.com/embed/0v7pdd4za6s" title="Как эффективно искать информацию по фронтенду" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </main>
         <footer class="footer">
