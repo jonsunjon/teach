@@ -4,6 +4,7 @@ html {
 }
 body {
     display: flex;
+    min-width: 400px;
     flex-direction: column;
     height: 100%;
 }
