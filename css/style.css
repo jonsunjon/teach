@@ -127,11 +127,12 @@ body {
     z-index: 2;
     max-width: 500px;
     max-height: 418px;
-    padding: 0px 0px 56px 28px ;
+    padding: 28px 28px 56px 28px ;
     background-color: #ffffff;
     border: 1px solid;
     border-color: #213B7E;
     box-shadow: 5px 5px 4px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
 }
 
 .show_popup {
@@ -170,6 +171,20 @@ body {
     font-weight: 400;
     color: #808080;
     padding: 10px 0 14px 17px;
+}
+
+
+.close {
+    align-self: flex-end;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-style: normal;
+    color: #808080;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 @media (max-width: 800px) {
@@ -326,18 +341,6 @@ body {
         width: 100%;
         padding: 0px 2vw;
     }
-}
-
-.close {
-    align-self: flex-end;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-style: normal;
-    color: #808080;
-    font-size: 14px;
-    font-weight: 400;
-    margin-top: 0px;
-    margin-right: 4px;
 }
 
 .close:hover {
