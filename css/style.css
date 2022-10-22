@@ -513,8 +513,15 @@ em {
     font-size: 36px;
     font-weight: 400;
     fill: #646464; 
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1;
+
+}
+
+.outlined {
+    text-shadow: 
+    -1px 0 0 rgb(0, 0, 0), 
+    0 -1px 0 rgb(0, 0, 0),
+    1px 0 0 rgb(0, 0, 0), 
+    0 1px 0 rgb(0, 0, 0); 
 }
 
 .uch {
@@ -610,7 +617,6 @@ td:nth-child(n) {
     width: 100%;
     margin: 0 auto;
     min-height: 60px;
-    color: #213B7E;
     background-color: #213B7E;
 }
 .footer > .wrapper {
@@ -623,9 +629,9 @@ td:nth-child(n) {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;  
-    paint-order: stroke;
     fill: rgba(255, 255, 255, 0.5); 
     stroke: rgb(0, 0, 0);
     stroke-width: 1;
+    paint-order: stroke;
     filter: drop-shadow( 0px 4px 4px rgb(0, 0, 0, 0.25) );
 }
