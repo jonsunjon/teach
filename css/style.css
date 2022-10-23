@@ -92,11 +92,29 @@ body {
     padding: 0 18px;
     margin: 0;
 }
+
 .menu_link:hover {
     color:  #213B7E;
     background-color:  #ffffff;
     text-decoration: none;
 }
+
+.menu_link:focus {
+    color:  #213B7E;
+    background-color:  #ffffff;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.7) inset;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 3px rgba(255, 255, 255, 0.7) inset;
+}
+
 .login {
     display: flex;
     align-self: center;
@@ -592,7 +610,7 @@ td:nth-child(n) {
 
 .aside {
     margin-top: 90px;
-    height: 100%;
+    height: 50vw;
     width: 60px;
     position: absolute;
     right: 0px;
@@ -630,8 +648,5 @@ td:nth-child(n) {
     font-size: 20px;
     line-height: 24px;  
     fill: rgba(255, 255, 255, 0.5); 
-    stroke: rgb(0, 0, 0);
-    stroke-width: 1;
-    paint-order: stroke;
-    filter: drop-shadow( 0px 4px 4px rgb(0, 0, 0, 0.25) );
+    filter: drop-shadow( 0px 4px 4px rgb(0, 0, 0, 0.25) ); 
 }
